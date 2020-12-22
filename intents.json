@@ -1,0 +1,53 @@
+{"intents":
+[
+        {"tag": "greeting",
+         "inputs": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "I want to ask something", "Help",
+           "I need help", "Knock knock"],
+         "responses": ["Hello, thanks for visiting", "Welcome to the shop", "Hi there, how can I help?", "Please go ahead"]
+        },
+        {"tag": "goodbye",
+         "inputs": ["Bye", "See you later", "Goodbye", "Cya", "Ciao", "Bye bye", "Nothing I need anymore"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.",
+         "If you need anything more, just ask"]
+        },
+        {"tag": "thanks",
+         "inputs": ["Thanks", "Thank you", "That's helpful", "Good idea"],
+         "responses": ["Happy to help!", "My pleasure", "Glad to help"]
+        },
+        {"tag": "hours",
+         "inputs": ["What hours are you open?", "What are your hours?", "When are you open?", "What is the shop open time?"],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "inputs": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?",
+         "Can I pay with credit cards?", "Do you take online payment?"],
+         "responses": ["We accept VISA and Mastercard", "We accept most major credit cards", "We do",
+         "We accept online payment", "Yes we take cash"]
+        },
+        {
+          "tag": "question",
+          "inputs": ["Do you have any suggestions?", "Can you give me some hint?", "What should I wear?",
+          "What kind of clothes I should take?"],
+          "responses": ["Can you give me your height and weight?", "What are your height and weight",
+          "How tall are you and how much do you weigh"]
+        },
+        {
+          "tag": "S",
+          "inputs": ["I'm 1m60 and 55 kilos", "I'm 160cm and 55 kilos", "1m63 and 56 kilos", "160cm and 58 kilos",
+          "1m61 and 57 kilos", "160cm and 58 kilos", "1m65 and 60 kilos", "1m63 and 60 kilos", "163cm and 55 kilos"],
+          "responses": ["Your suggested size is S", "You should take size S", "Size S it is"]
+        },
+        {
+          "tag": "M",
+          "inputs": ["I'm 1m64 and 60 kilos", "I'm 164cm and 65 kilos", "1m67 and 63 kilos", "167cm and 61 kilos",
+          "1m65 and 62 kilos", "165cm and 60 kilos", "1m68 and 62 kilos", "1m66 and 64 kilos", "169cm and 65 kilos"],
+          "responses": ["Your suggested size is M", "You should take size M", "Size M it is"]
+        },
+        {
+          "tag": "L",
+          "inputs": ["I'm 1m70 and 68 kilos", "I'm 170cm and 69 kilos", "1m72 and 68 kilos", "171cm and 67 kilos",
+          "1m72 and 70 kilos", "173cm and 66 kilos", "1m73 and 67 kilos", "1m74 and 70 kilos", "174cm and 66 kilos"],
+          "responses": ["Your suggested size is L", "You should take size L", "Size L it is"]
+        }
+]
+}
